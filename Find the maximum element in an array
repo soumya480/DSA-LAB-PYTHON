@@ -1,0 +1,8 @@
+n=int(input("Enter the number of elemnts:"))
+arr=[]
+print("Enter the elements:")
+for i in range(n):
+    num=int(input())
+    arr.append(num)
+    max_num=max(arr)
+print("The maximum number is:",max_num)
