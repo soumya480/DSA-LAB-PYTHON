@@ -1,0 +1,7 @@
+arr=list(map(int,input("Enter the elements of the array separated by space:").split()))
+unique_arr=list(set(arr))
+if len (unique_arr)<2:
+    print("There is no second largest element in the array.")
+else:
+    unique_arr.sort()
+    print("The second largest element in the array is:",unique_arr[-2])
